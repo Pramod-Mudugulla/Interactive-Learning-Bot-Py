@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Chat conversation area -->
+    <div class="chat-conversation" id="chat-messages">
+         <!--   <div class="chat-message bot-message">
+            <p>Hello! How can I assist you today?</p>
+        </div>  -->
+    </div>
+
+    <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+
+        <button id="send-btn"><span>&#10148;</span></button>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
