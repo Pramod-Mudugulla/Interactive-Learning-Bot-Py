@@ -32,20 +32,20 @@
    ```bash
    pip install Flask
 
-3. Create a knowledge_base.json file in the root directory with the following structure:
+3. Create a `knowledge_base.json` file in the root directory with the following structure:
    ```json
    {
-  "questions": [
-    {
-      "question": "What is your name?",
-      "answer": "I am a chatbot."
-    },
-    {
-      "question": "How can you help me?",
-      "answer": "I can answer your questions."
-    }
-  ]
-}
+     "questions": [
+       {
+         "question": "What is your name?",
+         "answer": "I am a chatbot."
+       },
+       {
+         "question": "How can you help me?",
+         "answer": "I can answer your questions."
+       }
+     ]
+   }
 
 4. Run the Flask application:
    ```bash
@@ -54,12 +54,12 @@
 5. Open your web browser and navigate to http://127.0.0.1:5000/.
 
 ## Usage
-- **Type your question in the input box and click "Send" or press Enter to submit.
-- **If the chatbot does not know the answer, it will ask you to teach it a new response.
-- **You can provide a new answer, which will be saved to the knowledge base for future interactions.
+- Type your question in the input box and click "Send" or press Enter to submit.
+- If the chatbot does not know the answer, it will ask you to teach it a new response.
+- You can provide a new answer, which will be saved to the knowledge base for future interactions.
 
 ## Contributing
-- **Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
-- **License
-- **This project is licensed under the MIT License. See the LICENSE file for more details.
+- Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
